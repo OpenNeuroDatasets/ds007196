@@ -1,33 +1,18 @@
-You should replace the content of this file and describe your dataset.
+# The child Precision Functional Mapping (cPFM) dataset
 
----
+This dataset contains the child Precision functional Mapping (cPFM) data. This dataset is focused on characterizing resting state functional network organization in children, and includes anatomical and functional MRI data from 12 children, ages 8-12 years old (6 female, 6 male). At least one T1-weighted structural MPRAGE and one T2-weighted structural image with turbo spin echo sequence were collected across visits. Up to five 10-minute echo-planar sequence functional resting state scans were collected during each visit. During resting state scans, participants were instructed to lie as still as possible, stay awake, and view a white fixation cross on a black background. 
 
-BIDS Specification: https://bids-specification.readthedocs.io/en/stable/
+## Raw Data
+BIDS sorted and labeled raw data is provided to allow for preprocessing steps that differ from those performed for the original publication. This dataset includes the following unprocessed NIfTI files and sidecar .json files:
 
----
+- Anatomical: At least one T1w and one T2w anatomical scan (both defaced) is provided for each session.
+- Functional: Up to 5, 10-minute resting state EPIs are provided for each session. 
+- Distortion Maps: 2 spin echo EPIs with opposite phase encoding are provided, per session, for distortion correction.
 
-BIDS directory overview
-https://bids-specification.readthedocs.io/en/stable/02-common-principles.html#single-session-example
+## Derivatives
+The following derivatives are provided for replication of the originally published findings:
 
----
+- Fully processed, smoothed, and motion scrubbed resting state data are provided for each participant within the Greene_Lab_Processed derivatives folder. For each participant, one dconn and dtseries CIFTI file is provided. As per suggested practices at the time of publication, these CIFTIs are smoothed to 6mm FWHM and are motion scrubbed with a .2mm Framewise Displacement (FD) threshold.  
 
-participants.tsv and participants.json
-https://bids-specification.readthedocs.io/en/stable/02-common-principles.html#tabular-files
-https://bids-specification.readthedocs.io/en/stable/03-modality-agnostic-files.html#participants-file
 
----
-
-dataset_description.json
-https://bids-specification.readthedocs.io/en/stable/03-modality-agnostic-files.html#dataset_description
-
----
-
-README
-https://bids-specification.readthedocs.io/en/stable/03-modality-agnostic-files.html#readme
-
----
-
-CHANGES
-https://bids-specification.readthedocs.io/en/stable/03-modality-agnostic-files.html#changes
-
----
+The details of this dataset are more fully described in <final citation> and this manuscript should be cited when publishing work using any of these data.
