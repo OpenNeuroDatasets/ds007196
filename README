@@ -11,9 +11,9 @@ BIDS sorted and labeled raw data is provided to allow for preprocessing steps th
 
 ## Derivatives
 The following derivatives are provided for replication of the originally published findings:
-
-- Fully processed, smoothed, and motion scrubbed resting state data are provided for each participant within the Greene_Lab_Processed derivatives folder. For each participant, one dconn and dtseries CIFTI file is provided. As per suggested practices at the time of publication, these CIFTIs are smoothed to 6mm FWHM (surface) and are motion scrubbed with a .2mm Framewise Displacement (FD) threshold.  
-- Subcortical data are retained in the dtseries, but are left minimally smoothed (unsmoothed) here, as suggested practices for subcortical connectivity analyses are currently unresolved. 
+Greene_Lab_Preprocessed:
+  - Fully processed, smoothed, and motion scrubbed resting state data are provided for each participant within the Greene_Lab_Processed derivatives folder. For each participant, one dconn and dtseries CIFTI file is provided. As per suggested practices at the time of publication, these CIFTIs are smoothed to 6mm FWHM (surface) and are motion scrubbed with a .2mm Framewise Displacement (FD) threshold.  
+  - Subcortical data are retained in the dtseries, but are left minimally smoothed (unsmoothed) here, as suggested practices for subcortical connectivity analyses are currently unresolved. 
 
 
 The details of collection and processing of this dataset are more fully described in <final citation> and this manuscript should be cited when publishing work using any of these data.
