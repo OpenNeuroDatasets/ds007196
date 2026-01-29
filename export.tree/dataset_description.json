@@ -1,0 +1,35 @@
+{
+    "Name": "The child Precision Functional Mapping (cPFM) dataset",
+    "BIDSVersion": "1.2.1",
+    "License": "CC0",
+    "Authors": [
+        "Damion V. Demeter",
+        "Matthew Feigelis",
+        "Carolina Badke D’Andrea",
+        "Sana A. Ali",
+        "Abigail R. Baim",
+        "Emily Koithan",
+        "Jared Stearns",
+        "Salma Zreik",
+        "Jonathan Ahern",
+        "Sujin Park",
+        "Sarah E. Chang",
+        "Ryland L. Miller",
+        "Jacquline M. Hampton",
+        "Bradley L. Schlaggar",
+        "Scott Marek",
+        "Evan M. Gordon",
+        "Nico UF Dosenbach",
+        "Caterina Gratton",
+        "Deanna J. Greene"
+    ],
+    "Acknowledgments": "",
+    "HowToAcknowledge": "",
+    "Funding": [
+        ""
+    ],
+    "ReferencesAndLinks": [
+        ""
+    ],
+    "DatasetDOI": "doi:10.18112/openneuro.ds007196.v1.0.0"
+}
