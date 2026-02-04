@@ -1,4 +1,13 @@
-participant_id	age	sex	group
-sub-control01	34	M	control
-sub-control02	12	F	control
-sub-patient01	33	F	patient
+participant_id	age	sex	session_count	usable_data_sec
+sub-cPFM05	9.2	M	12	20414
+sub-cPFM07	10.62	M	6	6582
+sub-cPFM08	9.88	M	12	13872
+sub-cPFM10	10.12	M	4	5472
+sub-cPFM11	9.17	M	3	3696
+sub-cPFM12	9.8	F	8	10927
+sub-cPFM13	9.66	F	10	15859
+sub-cPFM14	8.24	M	5	6757
+sub-cPFM15	11.9	F	8	9471
+sub-cPFM17	10.13	F	6	7632
+sub-cPFM18	10.58	F	9	11143
+sub-cPFM19	9.44	F	7	11358
