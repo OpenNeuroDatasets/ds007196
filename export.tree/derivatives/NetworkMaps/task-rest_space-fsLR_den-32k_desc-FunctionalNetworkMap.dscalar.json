@@ -1,6 +1,0 @@
-{
-  "Description": "Participant-level functional network map derived from resting-state fMRI data.",
-  "Space": "fsLR",
-  "Density": "32k",
-  "CIFTIType": "dscalar"
-}
