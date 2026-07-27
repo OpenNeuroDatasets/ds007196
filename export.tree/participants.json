@@ -1,0 +1,27 @@
+{
+    "MeasurementToolMetadata": {
+        "Description": "Demographic information"
+    },
+    "sex": {
+        "Description": "Participant sex",
+        "Levels": {
+            "M": "Male",
+            "F": "Female"
+        }
+    },
+    "age": {
+        "Description": "Participant age at the time of their first scan",
+        "Units": "Years"
+    },
+    "session_count": {
+        "Description": "Participant session count"
+    },
+    "usable_data_sec": {
+        "Description": "Total amount of usable functional MRI data remaining after motion censoring at framewise displacement < 0.2 mm",
+        "Units": "seconds",
+        "MotionCensoring": {
+            "Metric": "Framewise displacement",
+            "Threshold": "0.2 mm"
+            }
+        }
+}
